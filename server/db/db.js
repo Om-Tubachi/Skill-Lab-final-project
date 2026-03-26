@@ -2,7 +2,7 @@ import {MongoClient} from 'mongodb'
 import dotenv from "dotenv";
 dotenv.config();
 
-const string = process.env.STRING || 'mongodb+srv://omtubachi06_db_user:g56y8ZGbRwQk6dpf@videotube.o5xmkz6.mongodb.net/?appName=videotube'
+const string = process.env.STRING
 const client = new MongoClient(string)
 const connectDB = async () => {
     try{
