@@ -12,7 +12,6 @@ function App() {
             <div id='box-2' className='flex justify-center h-fit gap-10 w-full m-3 mx-6 p-3'>
                 {/*    two floating info card components    */}
                 <InfoCard/>
-                <InfoCard/>
             </div>
 
         </div>

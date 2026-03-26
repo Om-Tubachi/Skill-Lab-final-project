@@ -6,6 +6,7 @@ import './index.css'
 import App from './App.jsx'
 import {Home} from "lucide-react";
 import DayX from "@/components/DayX.jsx";
+import Signup from "@/components/Signup.jsx";
 
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(createRoutesFromElements(
                 idx={3}
             />
         }/>
+        <Route path='/signup' element={<Signup/>}/>
     </Route>))
 
 

@@ -1,0 +1,32 @@
+day 1
+heading: Fundamentals of javascript
+subheading: What did we learn? Node as the js runtime, fundamentals of js, data structures and some prominent features introduced in the ES6 update back in 2015
+body:
+    The session started with introduction to the language of the web - javascript ( which has the tendency type-coerce you by upcasting you either to heaven or downcasting you straight to hell ).
+    Javascript was developed as a native language of the web meant only to run in your browser consoles, but as the popularity of the language grew faster than the rate of loneliness in the 2010's, people decided to bring their beloved language to their IDEs.
+     That is when Node.js was developed - the place where your javascript code can come to haunt you inside your IDE
+     Javascipt is a losely typed language and is notorious for its flaccid type coercion ( wdym you don't know what will be the answer of : console.log([] == ![])
+     Some cool new features such as the filter(), map(), reduce(), task queues were introduced in the ES6 update
+
+day 2
+heading:
+        Mini project 1
+
+subheading:
+            We made a simple Auth form as a react component, things taught: useState() hook
+body:
+     Used useState() hook to handle functional component level variables so they don't get lost in the deep scary sea of the abstractions of React.
+     Almost anything can be logically rendered in react using the && as react is a granularly component focussed /concentrated library.
+     Hence diversity and richness of the inherent quality and value of an app is limited to your imagination and not to the library.
+
+day 3:
+
+heading:  Sub major project - The Quiz app
+
+subheading:
+            Properties - props in React land, dumber version of the contextAPI, state management manually
+body:
+    This session was indeed interesting as it was pushing (almost) the boundaries of beginner React concepts such as passing around props from one component to another, those props can be functions as well.
+    The quiz was designed such that it contained hard coded questions in memory.
+    We also learnt something akin to managing context? The state of the quiz was managed by one component while it was being changed by another -> yes, a good starting point to understand context, contextAPI, useContext() hook.
+
