@@ -49,6 +49,10 @@
 }
 
 :root {
+    --color-1: #ff6b6b;
+    --color-2: #ffd93d;
+    --color-3: #6bcb77;
+    --color-4: #4d96ff;
     --background: oklch(1 0 0);
     --foreground: oklch(0.145 0 0);
     --card: oklch(1 0 0);
@@ -128,3 +132,11 @@
     @apply font-sans;
     }
 }
+
+ .material-symbols-outlined {
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 24
+ }
