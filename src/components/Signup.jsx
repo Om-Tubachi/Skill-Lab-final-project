@@ -1,6 +1,8 @@
 import {useState} from 'react'
 
-const backend = 'http://localhost:3000'
+const backend = process.env.VITE_BACKEND_URL
+
+// const backend = 'http://localhost:3000'
 
 const Signup = () => {
     const [email, setEmail] = useState('')
