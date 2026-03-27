@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config();
+
 import connectDB from "./db/db.js";
 import sendMail from "./utils/mail.js";
 import cors from "cors";
@@ -9,7 +11,6 @@ const app = express();
 app.use(cors({
     origin: 'https://skilllab-2gi24cs091-om-tubachis-projects.vercel.app',
 }));
-dotenv.config();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
