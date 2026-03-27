@@ -7,7 +7,7 @@ import {startCronJob} from "./cron.js";
 
 const app = express();
 app.use(cors({
-    origin: "*",
+    origin: 'https://skilllab-2gi24cs091-om-tubachis-projects.vercel.app',
 }));
 dotenv.config();
 app.use(express.json());
